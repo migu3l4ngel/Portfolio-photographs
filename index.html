@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/95468b8ad8.js" crossorigin="anonymous"></script>
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Miguel Hurtado</h1>
+                <p>Web Developer</p>
+            </div>
+            <form action="">
+                <input type="text" class="search-bar" id="search-bar" placeholder="Search...">
+            </form>
+            <div class="categories" id="categories">
+                <a href="#" class="active">Todos</a>
+                <a href="#">Naturaleza</a>
+                <a href="#">Ciudades</a>
+                <a href="#">Personas</a>
+                <a href="#">Animales</a>
+            </div>
+        </header>
+        <section class="grid" id="grid">
+                <div class="item" 
+                    data-category="ciudades" 
+                    data-etiquet="ciudades autos carros calles edificios"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/ciudad1.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="personas" 
+                    data-etiquet="mujer femenina persona mujeres azul"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/persona1.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="naturaleza" 
+                    data-etiquet="naturaleza hojas verde"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/naturaleza1.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="animales" 
+                    data-etiquet="león leon animal negro oscuro"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/animal1.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="animales" 
+                    data-etiquet="panda oso animal negro oscuro"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/animal2.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="paisajes" 
+                    data-etiquet="mar costa paisaje atardecer"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/paisaje1.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="ciudades" 
+                    data-etiquet="ciudades autos carros calles edificios"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/ciudad2.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="personas" 
+                    data-etiquet="mujer femenina persona mujeres azul"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/persona2.png" alt="">
+                    </div>
+                </div>
+                <div class="item" 
+                    data-category="paisajes" 
+                    data-etiquet="montaña nubes atardecer negro oscuro"
+                    data-description="lorem ipsum dolor sit amet consectetur.">
+                    <div class="img-container">
+                        <img src="img/paisaje2.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <section class="overlay" id="overlay">
+                <div class="content-img">
+                    <button id="btn-exit-popup"><i class="fas fa-times-circle"></i></button>
+                    <img src="" alt="">
+                </div>
+                <p class="description"></p>
+        </section>
+        <footer class="container">
+            <div class="social-media">
+                <div class="content-icon">
+                    <a href="#" target="_blank" class="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="content-icon">
+                    <a href="#" target="_blank" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="content-icon">
+                    <a href="#" target="_blank" class="instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="content-icon">
+                    <a href="#" target="_blank" class="github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="created-by">
+                <p>Site designed by <a href="#">Miguel A. Hurtado</a> through <a href="#">FalconMasters</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
